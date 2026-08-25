@@ -36,7 +36,8 @@ resources are still created.
   current/target temperature (and range when supported)
 - Fan [`fan`] — On/off, speed, direction, preset (e.g. breeze) when exposed
 - Light [`light`] — On/off, brightness, color temp, RGB, effects; dual-channel
-  fixtures present as separate color/white lights; night-light when exposed
+  fixtures present as separate color/white lights; **Night Light Mode** as an
+  effect when the fixture exposes API `night-light` color-mode
 - Lock [`lock`] — Lock / unlock
 - Number / Select [`number` / `select`] — Numeric settings and mode pickers
   (common on exhaust fans and similar)
